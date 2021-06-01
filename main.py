@@ -20,7 +20,7 @@ print("Successfully logged into the bot account.")
 
 subclients = client.sub_clients()
 for name, id in zip(subclients.name, subclients.comId):
-    print(name, id)
+    print(name. id)
 
 comId = input("Select the Community: ")
 sub_client = amino.SubClient(comId=comId, profile=client.profile)
@@ -48,6 +48,7 @@ for i in range(1000):
 
 for i in range(1000):
     threads[i].join()
+
 
 
 
